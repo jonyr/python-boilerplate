@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.env
+.envrc
+venv
+.envrc
+*.sqlite
+.DS_Store
