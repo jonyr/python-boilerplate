@@ -1,0 +1,32 @@
+{
+    "python.defaultInterpreterPath": "/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "black-formatter.args": [
+        "--skip-string-normalization",
+        "--line-length=140",
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            140
+        ],
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.pyc": true,
+        "venv/*": true,
+    },
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#099cf2",
+        "titleBar.activeForeground": "#000000",
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "pylint.args": ["--rcfile=.pylintrc"],
+}
+
